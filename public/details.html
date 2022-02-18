@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="front-end/libraries/bootstrap/css/bootstrap.css"
+    />
+    
+    <!-- css styling -->
+    <link rel="stylesheet" href="front-end/styles/main.css" />
+    <!-- xzoom styling -->
+    <link rel="stylesheet" href="front-end/libraries/xzoom/xzoom.css" />
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <!-- logo -->
+        <a href="#" class="navbar-brand">
+          <img src="front-end/images/logo/logo2.png" alt="logo-travelku" />
+        </a>
+        <!-- toogle-bar-right -->
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- link -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <!-- active -->
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="" class="nav-link active">Paket Travel</a>
+            </li>
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbardrop"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">link</a>
+                <a class="dropdown-item" href="#">link2</a>
+                <a class="dropdown-item" href="#">link3</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="" class="nav-link">Testimonial</a>
+            </li>
+          </ul>
+          <!-- mobile button  -->
+          <from class="from-inline my-2 d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0 px-4 btn-navbar-mobile">
+              <b>Sign In</b>
+            </button>
+          </from>
+          <!-- destkop button -->
+          <from class="from-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Sign In
+            </button>
+          </from>
+        </div>
+      </nav>
+    </div>
+
+    <!-- main -->
+    <main>
+      <!-- header -->
+      <section class="section-header-details"></section>
+      <!-- content details -->
+      <section class="section-content-details">
+        <div class="container">
+          <!-- breadcumb -->
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">Paket Travel</li>
+                  <li class="breadcrumb-item active">Details</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <!-- card-content -->
+          <div class="row">
+            <!-- detail card -->
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Osaka</h1>
+                <p>Japan</p>
+                <!-- gallery content -->
+                <div class="gallery">
+                  <!-- hero  -->
+                  <div class="xzoom-container">
+                    <img
+                      src="front-end/images/details-content-image/Hero/hero_details_img.png"
+                      alt="details-image"
+                      class="xzoom"
+                      xoriginal="front-end/images/details-content-image/Hero/hero_details_original.jpg"
+                      id="xzoom-default"
+                    />
+                  </div>
+                  <!-- gallery image -->
+                  <div class="xzoom-tumbs">
+                    <a
+                      href="front-end/images/details-content-image/breadcumb/image 4.png"
+                    >
+                      <img
+                        src="front-end/images/details-content-image/breadcumb/image 4.png"
+                        alt="detail-content-gallery"
+                        class="xzoom-gallery front"
+                        width="120"
+                        xpreview="front-end/images/details-content-image/breadcumb/image 4.png"
+                      />
+                    </a>
+                    <a
+                      href="front-end/images/details-content-image/breadcumb/image 5.png"
+                    >
+                      <img
+                        src="front-end/images/details-content-image/breadcumb/image 5.png"
+                        alt="detail-content-gallery"
+                        class="xzoom-gallery mid"
+                        width="120"
+                        xpreview="front-end/images/details-content-image/breadcumb/image 5.png"
+                      />
+                    </a>
+                    <a
+                      href="front-end/images/details-content-image/breadcumb/image 6.png"
+                    >
+                      <img
+                        src="front-end/images/details-content-image/breadcumb/image 6.png"
+                        alt="detail-content-gallery"
+                        class="xzoom-gallery mid"
+                        width="120"
+                        xpreview="front-end/images/details-content-image/breadcumb/image 6.png"
+                      />
+                    </a>
+                    <a
+                      href="front-end/images/details-content-image/breadcumb/image 7.png"
+                    >
+                      <img
+                        src="front-end/images/details-content-image/breadcumb/image 7.png"
+                        alt="detail-content-gallery"
+                        class="xzoom-gallery mid"
+                        width="120"
+                        xpreview="front-end/images/details-content-image/breadcumb/image 7.png"
+                      />
+                    </a>
+                    <a
+                      href="front-end/images/details-content-image/breadcumb/image 8.png"
+                    >
+                      <img
+                        src="front-end/images/details-content-image/breadcumb/image 8.png"
+                        alt="detail-content-gallery"
+                        class="xzoom-gallery bottom"
+                        width="120"
+                        xpreview="front-end/images/details-content-image/breadcumb/image 8.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!-- description content -->
+                <h2 class="main-description">Tentang Wisata</h2>
+                <p>
+                  Ōsaka (大阪) is the third largest city in Japan, with a
+                  population of over 2.5 million people in its greater
+                  metropolitan area. It is the central metropolis of the Kansai
+                  region and the largest of the Osaka-Kobe-Kyoto trio.
+                  <br /><br />
+                  "Osaka" can mean either the larger Osaka prefecture (大阪府
+                  Ōsaka-fu), covered in a separate guide, or central Osaka city
+                  (大阪市 Ōsaka-shi), the topic of this guide. The city is
+                  administratively divided into 24 wards (区 ku), but in common
+                  usage the following divisions are more useful: Kita (キタ),
+                  Minami (ミナミ) , Tennoji (天王寺), Osaka castle
+                </p>
+                <!-- features -->
+                <div class="features row">
+                  <div class="col-md-4">
+                    <div class="description">
+                      <img
+                        src="front-end/images/icon-details/Artboard – 4.png"
+                        alt="icon-features"
+                        class="features"
+                      />
+                      <h3>Features Event</h3>
+                      <p>Universal Studios Japan</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <img
+                      src="front-end/images/icon-details/ic-bahasa.png"
+                      alt="icon-language"
+                      class="features"
+                    />
+                    <h3>Language</h3>
+                    <p>Japanese</p>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <img
+                      src="front-end/images/icon-details/ic-Food.png"
+                      alt="icon-foods"
+                      class="features"
+                    />
+                    <h3>Food</h3>
+                    <p>Japanese Food</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- order card -->
+            <div class="col-lg-4">
+              <div class="card card-details card-right order-card">
+                <!-- member information -->
+                <h2 class="members-text">Members Are Going</h2>
+                <div class="members-my-2">
+                  <img
+                    src="front-end/images/checkout-picture/members/mark.png"
+                    alt=""
+                    class="member-image"
+                  />
+                  <img
+                    src="front-end/images/members/Mask Group (1).png"
+                    alt=""
+                    class="member-image"
+                  />
+                  <img
+                    src="front-end/images/members/Mask Group (2).png"
+                    alt=""
+                    class="member-image"
+                  />
+                  <img
+                    src="front-end/images/members/Mask Group (3).png"
+                    alt=""
+                    class="member-image"
+                  />
+                  <img
+                    src="front-end/images/members/Mask Group (4).png"
+                    alt=""
+                    class="member-image"
+                  />
+                  <div class="border-bottom"></div>
+                </div>
+                <!-- trip Information -->
+                <h2 class="trip-information">Trip Information</h2>
+                <table>
+                  <tr>
+                    <th width="50%">Date of Depatures</th>
+                    <td width="50%" class="text-right">13 Dec, 2020</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Duration</th>
+                    <td width="50%" class="text-right">4D 3N</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Type of Trip</th>
+                    <td width="50%" class="text-right">Open Public</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Price</th>
+                    <td width="50%" class="text-right">$800,00/Person</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="join-container">
+                <a
+                  href="checkout.html"
+                  class="btn btn-block btn-join-now mt-3 py-3"
+                >
+                  Join Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <section class="section-footer mt-5">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <!-- features -->
+              <div class="col-12 col-lg-3 footer">
+                <h5>Features</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Reviews</a>
+                  </li>
+                  <li class="">
+                    <a href="">Community</a>
+                  </li>
+                  <li class="">
+                    <a href="">Social Media Kit </a>
+                  </li>
+                  <li class="">
+                    <a href="">Affliate</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- reviews -->
+              <div class="col-12 col-lg-3 footer">
+                <h5>Account</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Refund</a>
+                  </li>
+                  <li class="">
+                    <a href="">Security</a>
+                  </li>
+                  <li class="">
+                    <a href="">Rewards</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Company -->
+              <div class="col-12 col-lg-3 footer">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Career</a>
+                  </li>
+                  <li class="">
+                    <a href="">Help Center </a>
+                  </li>
+                  <li class="">
+                    <a href="">Media</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3 footer">
+                <!-- Get Connected -->
+                <h5>Get Connected</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Bekasi Timur </a>
+                  </li>
+                  <li class="">
+                    <a href="">Indonesia</a>
+                  </li>
+                  <li class="">
+                    <a href="">0812-8383-3311 </a>
+                  </li>
+                  <li class="">
+                    <a href="">Support@Travelku.com </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-item-center pt-1"
+        >
+          <div class="col-auto footer-end-text font-weight-light">
+            2021 Copyright Travelku • All rights reserved • Made in Bekasi
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="front-end/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="front-end/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="front-end/libraries/retina/retina.min.js"></script>
+    <script src="front-end/libraries/xzoom/xzoom.min.js"></script>
+    <!-- xzoom script -->
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+      });
+    </script>
+  </body>
+</html>

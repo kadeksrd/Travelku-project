@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="front-end/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="front-end/styles/main.css" />
+    <link rel="stylesheet" href="front-end/libraries/gijgo/css/gijgo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-md-auto mr-lg-0">
+          <a href="index.html" class="navbar-brand">
+            <img src="front-end/images/logo/logo2.png" alt="logo-travelku" />
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp; Beyond the explorer of the world
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- main -->
+    <main>
+      <!-- header -->
+      <section class="section-header-details"></section>
+      <!-- content details -->
+      <section class="section-content-details">
+        <div class="section-details-content">
+          <!-- breadcumb -->
+          <div class="container">
+            <div class="row">
+              <div class="col p-0">
+                <nav>
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Paket Travel</li>
+                    <li class="breadcrumb-item">Details</li>
+                    <li class="breadcrumb-item active">Checkout</li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+            <!-- card-content -->
+            <div class="row">
+              <!-- member checkout -->
+              <div class="col-lg-8 pl-lg-0">
+                <div class="card card-details">
+                  <h1>Who is Going?</h1>
+                  <p>Trip to Osaka, Japan</p>
+                  <!-- table member -->
+                  <div class="attendee">
+                    <table
+                      class="
+                        table table-responsive-sm
+                        text-center
+                        table-borderless
+                      "
+                    >
+                      <thead>
+                        <tr>
+                          <td>Picture</td>
+                          <td>Name</td>
+                          <td>Nationality</td>
+                          <td>Visa</td>
+                          <td>Passport</td>
+                          <td></td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <img
+                              src="front-end/images/checkout-picture/members/mark.png"
+                              height="50"
+                              alt="picture_members"
+                            />
+                          </td>
+                          <td class="align-middle">Dmotov Kiev</td>
+                          <td class="align-middle">Russian</td>
+                          <td class="align-middle">40 Days</td>
+                          <td class="align-middle">Active</td>
+                          <td class="align-middle">
+                            <a href="">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="gray"
+                                class="bi bi-x-lg"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                                />
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                                />
+                              </svg>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <img
+                              src="front-end/images/checkout-picture/members/giselle.png"
+                              height="50"
+                              alt="picture_members"
+                            />
+                          </td>
+                          <td class="align-middle">Gisela Angie</td>
+                          <td class="align-middle">Russian</td>
+                          <td class="align-middle">30 Days</td>
+                          <td class="align-middle">Active</td>
+                          <td class="align-middle">
+                            <a href="">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="gray"
+                                class="bi bi-x-lg"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"
+                                />
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"
+                                />
+                              </svg>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- add member -->
+                  <div class="members mt-3">
+                    <h2>Add Member</h2>
+                    <form class="form-inline mt-3">
+                      <!-- label -->
+                      <label for="inputUsername" class="sr-only">Name</label>
+                      <input
+                        class="form-control mb-2 mr-sm-2"
+                        type="text"
+                        placeholder="Username"
+                        id="inputUsername"
+                      />
+                      <label for="inputvisa" class="sr-only">Visa</label>
+                      <select
+                        name="inputvisa"
+                        id="inputvisa"
+                        class="custom-select mb-2 mr-sm-2"
+                      >
+                        <option selected>Visa</option>
+                        <option value="30 Days">30 Days</option>
+                        <option value="14 Days">14 Days</option>
+                      </select>
+                      <label for="inputpassport" class="sr-only"
+                        >Doe Passport</label
+                      >
+                      <div class="input-group mb-2 mr-sm-2">
+                        <input
+                          class="form-control datepicker"
+                          type="text"
+                          placeholder="Doe Passport"
+                          id="doePassport"
+                        />
+                      </div>
+                      <button class="btn btn-add-now mb-2 px-4">Add Now</button>
+                    </form>
+                    <!-- note -->
+                    <div class="note mt-2">
+                      <h3>Note</h3>
+                      <p>
+                        You are only able to invite member that has registered
+                        in Nomads.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- order card -->
+              <div class="col-lg-4">
+                <div class="card card-details card-right order-card checkout-card">
+                  <!-- Checkout information -->
+                  <h2>Checkout Information</h2>
+                  <table>
+                    <tr>
+                      <th width="50%">Members</th>
+                      <td width="50%" class="text-right">2 person</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Additional Visa</th>
+                      <td width="50%" class="text-right">$ 190,00</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Trip Price</th>
+                      <td width="50%" class="text-right">$80,00 / person</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Sub Total</th>
+                      <td width="50%" class="text-right">$280,00</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Total (+Unique Code)</th>
+                      <td width="50%" class="text-right">
+                        <span>$279,</span>
+                        <span class="text-orange">33</span>
+                      </td>
+                    </tr>
+                  </table>
+                  <div class="payment-guide border-top mt-2">
+                    <h2 class="payment mt-2">Payment Intructions</h2>
+                    <p>
+                      Please complete your payment before to continue the
+                      wonderful trip
+                    </p>
+                    <div class="bank mt-2">
+                      <div class="bank-item mt-2">
+                        <img
+                          src="front-end/images/checkout-picture/logo/bank1.png"
+                          alt="bank"
+                          class=""
+                        />
+                      </div>
+                      <div class="description">
+                        <p>
+                          PT Travelku ID
+                          <br />
+                          0881 8829 8800
+                          <br />
+                          Bank Central Asia
+                        </p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="bank-item mt-2">
+                      <img
+                        src="front-end/images/checkout-picture/logo/bank1.png"
+                        alt=""
+                        class="bank"
+                      />
+                    </div>
+                    <div class="description">
+                      <p>
+                        PT Travelku ID
+                        <br />
+                        0899 8501 7888                        
+                        <br />
+                        Bank HSBC
+                      </p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  </div>
+                  <div class="join-container">
+                    <a href="success-checkout.html" class="btn btn-block btn-join-now mt-3 py-3">
+                      Order Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <section class="section-footer mt-5">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <!-- features -->
+              <div class="col-12 col-lg-3 footer">
+                <h5>Features</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Reviews</a>
+                  </li>
+                  <li class="">
+                    <a href="">Community</a>
+                  </li>
+                  <li class="">
+                    <a href="">Social Media Kit </a>
+                  </li>
+                  <li class="">
+                    <a href="">Affliate</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- reviews -->
+              <div class="col-12 col-lg-3 footer">
+                <h5>Account</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Refund</a>
+                  </li>
+                  <li class="">
+                    <a href="">Security</a>
+                  </li>
+                  <li class="">
+                    <a href="">Rewards</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Company -->
+              <div class="col-12 col-lg-3 footer">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Career</a>
+                  </li>
+                  <li class="">
+                    <a href="">Help Center </a>
+                  </li>
+                  <li class="">
+                    <a href="">Media</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3 footer">
+                <!-- Get Connected -->
+                <h5>Get Connected</h5>
+                <ul class="list-unstyled">
+                  <li class="">
+                    <a href="">Bekasi Timur </a>
+                  </li>
+                  <li class="">
+                    <a href="">Indonesia</a>
+                  </li>
+                  <li class="">
+                    <a href="">0812-8383-3311 </a>
+                  </li>
+                  <li class="">
+                    <a href="">Support@Travelku.com </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-item-center pt-1"
+        >
+          <div class="col-auto footer-end-text font-weight-light">
+            2021 Copyright Travelku • All rights reserved • Made in Bekasi
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="front-end/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="front-end/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="front-end/libraries/retina/retina.min.js"></script>
+    <script src="front-end/libraries/gijgo/js/gijgo.min.js"></script>
+    <!-- gijgo script -->
+    <script>
+      $(document).ready(function () {
+        $(".datepicker").datepicker({
+          uiLibrary: "bootstrap4",
+          icons: {
+            rightIcon:
+              '<img src="front-end/images/checkout-picture/logo/image 10.png" />',
+          },
+        });
+      });
+      
+    </script>
+  </body>
+</html>
